@@ -1,0 +1,138 @@
+@charset "UTF-8";
+body {
+    color: #1B1B1B;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-image: url(blog_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+/*Float the Aside so it displays next to Main.*/
+aside {
+    width: 150px;
+    height: 1600px;
+    float: left;
+    background-color: #646464;
+}
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url(header.png);
+}
+
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line up with header.*/
+main {
+    width: 578px;
+    height: 1600px;
+    float: left;
+    font-size: 12pt;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	background-color: #FFFFFF
+}
+img {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+	background-color: #646464;
+}
+
+h1 {
+    color: #FBCA6E;
+	font-family: novel-sans-arabic,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+}
+
+p {
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h3   {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+article {
+    margin-bottom: 50px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 40px;
+    margin-right: 75px;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+	padding-top: 10px;
+}
+
+nav a:link {
+    color: #FBCA6E;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #CF8FC0;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #71BEEA;
+	background-color: #000000;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #93CE9A;
+}
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    background-color: #FBCA6E;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 16px;
+    
+}
+.submit_btn:hover {
+	-webkit-box-shadow: 1px 1px 10px 1px #000000;
+    box-shadow: 1px 1px 10px 1px #000000;
+}
